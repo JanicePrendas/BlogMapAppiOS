@@ -2,12 +2,12 @@
 //  AppDelegate.m
 //  BlogMapApp
 //
-//  Created by Sergio Herrera on 11/26/19.
+//  Created by Janice Prendas on 11/26/19.
 //  Copyright © 2019 Janice. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
+@import GoogleMaps;
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [GMSServices provideAPIKey:@"AIzaSyBid_HvhuGknVyfrkxXNYDVT9IWb0ylJEg"];
     return YES;
 }
 

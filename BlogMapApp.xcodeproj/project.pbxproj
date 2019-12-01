@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03A5885C2390BF19005112D6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A5885B2390BF19005112D6 /* CoreLocation.framework */; };
 		03F92EF1238E0FB100C2575A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F92EF0238E0FB100C2575A /* AppDelegate.m */; };
 		03F92EF4238E0FB100C2575A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F92EF3238E0FB100C2575A /* SceneDelegate.m */; };
 		03F92EF7238E0FB100C2575A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F92EF6238E0FB100C2575A /* ViewController.m */; };
@@ -16,6 +17,13 @@
 		03F92F02238E0FB300C2575A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F92F01238E0FB300C2575A /* main.m */; };
 		03F92F0C238E0FB300C2575A /* BlogMapAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F92F0B238E0FB300C2575A /* BlogMapAppTests.m */; };
 		03F92F17238E0FB300C2575A /* BlogMapAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F92F16238E0FB300C2575A /* BlogMapAppUITests.m */; };
+		03F92F26238E1CF500C2575A /* BlogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F92F25238E1CF500C2575A /* BlogTableViewCell.m */; };
+		03F92F35238EB75C00C2575A /* BlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F92F34238EB75C00C2575A /* BlogViewController.m */; };
+		03F92F39238F579300C2575A /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F92F38238F579300C2575A /* Article.m */; };
+		03FE03B02390AC3400D438D8 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FE03AF2390AC3400D438D8 /* MapViewController.m */; };
+		3FCFDDF1349721B8E5BDBFFD /* libPods-BlogMapAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE4586E1E5FCCCDC5390468 /* libPods-BlogMapAppTests.a */; };
+		9E4DF72920770E239436E680 /* libPods-BlogMapApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 268B6A2CC0100CE32BBAE75D /* libPods-BlogMapApp.a */; };
+		D2D38A555432106895431E81 /* libPods-BlogMapAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF0AD32DC6D627BAEE9961DA /* libPods-BlogMapAppUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03A5885B2390BF19005112D6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		03F92EEC238E0FB100C2575A /* BlogMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F92EEF238E0FB100C2575A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03F92EF0238E0FB100C2575A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +63,23 @@
 		03F92F12238E0FB300C2575A /* BlogMapAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogMapAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F92F16238E0FB300C2575A /* BlogMapAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogMapAppUITests.m; sourceTree = "<group>"; };
 		03F92F18238E0FB300C2575A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F92F24238E1CF500C2575A /* BlogTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlogTableViewCell.h; sourceTree = "<group>"; };
+		03F92F25238E1CF500C2575A /* BlogTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogTableViewCell.m; sourceTree = "<group>"; };
+		03F92F33238EB75C00C2575A /* BlogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlogViewController.h; sourceTree = "<group>"; };
+		03F92F34238EB75C00C2575A /* BlogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogViewController.m; sourceTree = "<group>"; };
+		03F92F37238F579300C2575A /* Article.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		03F92F38238F579300C2575A /* Article.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
+		03FE03AE2390AC3400D438D8 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		03FE03AF2390AC3400D438D8 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		080AEB9154FDEB15F6F4C170 /* Pods-BlogMapAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogMapAppUITests.release.xcconfig"; path = "Target Support Files/Pods-BlogMapAppUITests/Pods-BlogMapAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1B4F2B3DB57829DE9E5C8EEE /* Pods-BlogMapAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogMapAppTests.debug.xcconfig"; path = "Target Support Files/Pods-BlogMapAppTests/Pods-BlogMapAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		268B6A2CC0100CE32BBAE75D /* libPods-BlogMapApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlogMapApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE4586E1E5FCCCDC5390468 /* libPods-BlogMapAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlogMapAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0AD32DC6D627BAEE9961DA /* libPods-BlogMapAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlogMapAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC323B034C4AEDABFED4A7F /* Pods-BlogMapAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogMapAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-BlogMapAppUITests/Pods-BlogMapAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4C7CBC1E91D667C3579115A /* Pods-BlogMapAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogMapAppTests.release.xcconfig"; path = "Target Support Files/Pods-BlogMapAppTests/Pods-BlogMapAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED8501A22513EB1E24F77146 /* Pods-BlogMapApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogMapApp.release.xcconfig"; path = "Target Support Files/Pods-BlogMapApp/Pods-BlogMapApp.release.xcconfig"; sourceTree = "<group>"; };
+		FAD7F1221E94137EF526A65C /* Pods-BlogMapApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogMapApp.debug.xcconfig"; path = "Target Support Files/Pods-BlogMapApp/Pods-BlogMapApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A5885C2390BF19005112D6 /* CoreLocation.framework in Frameworks */,
+				9E4DF72920770E239436E680 /* libPods-BlogMapApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCFDDF1349721B8E5BDBFFD /* libPods-BlogMapAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D38A555432106895431E81 /* libPods-BlogMapAppUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +118,8 @@
 				03F92F0A238E0FB300C2575A /* BlogMapAppTests */,
 				03F92F15238E0FB300C2575A /* BlogMapAppUITests */,
 				03F92EED238E0FB100C2575A /* Products */,
+				330445E22A5684F814CAA28D /* Frameworks */,
+				D987FF46DA9D72DF80FA8E32 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,15 +138,14 @@
 			children = (
 				03F92EEF238E0FB100C2575A /* AppDelegate.h */,
 				03F92EF0238E0FB100C2575A /* AppDelegate.m */,
-				03F92EF2238E0FB100C2575A /* SceneDelegate.h */,
-				03F92EF3238E0FB100C2575A /* SceneDelegate.m */,
-				03F92EF5238E0FB100C2575A /* ViewController.h */,
-				03F92EF6238E0FB100C2575A /* ViewController.m */,
-				03F92EF8238E0FB100C2575A /* Main.storyboard */,
+				03FE03AD2390ABB200D438D8 /* View */,
+				03FE03AC2390AB9A00D438D8 /* ViewController */,
+				03F92F36238F577A00C2575A /* Model */,
 				03F92EFB238E0FB200C2575A /* Assets.xcassets */,
-				03F92EFD238E0FB300C2575A /* LaunchScreen.storyboard */,
 				03F92F00238E0FB300C2575A /* Info.plist */,
 				03F92F01238E0FB300C2575A /* main.m */,
+				03F92F24238E1CF500C2575A /* BlogTableViewCell.h */,
+				03F92F25238E1CF500C2575A /* BlogTableViewCell.m */,
 			);
 			path = BlogMapApp;
 			sourceTree = "<group>";
@@ -137,6 +168,63 @@
 			path = BlogMapAppUITests;
 			sourceTree = "<group>";
 		};
+		03F92F36238F577A00C2575A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03F92F37238F579300C2575A /* Article.h */,
+				03F92F38238F579300C2575A /* Article.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03FE03AC2390AB9A00D438D8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				03F92F33238EB75C00C2575A /* BlogViewController.h */,
+				03F92F34238EB75C00C2575A /* BlogViewController.m */,
+				03F92EF2238E0FB100C2575A /* SceneDelegate.h */,
+				03F92EF3238E0FB100C2575A /* SceneDelegate.m */,
+				03F92EF5238E0FB100C2575A /* ViewController.h */,
+				03F92EF6238E0FB100C2575A /* ViewController.m */,
+				03FE03AE2390AC3400D438D8 /* MapViewController.h */,
+				03FE03AF2390AC3400D438D8 /* MapViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		03FE03AD2390ABB200D438D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03F92EFD238E0FB300C2575A /* LaunchScreen.storyboard */,
+				03F92EF8238E0FB100C2575A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		330445E22A5684F814CAA28D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03A5885B2390BF19005112D6 /* CoreLocation.framework */,
+				268B6A2CC0100CE32BBAE75D /* libPods-BlogMapApp.a */,
+				3BE4586E1E5FCCCDC5390468 /* libPods-BlogMapAppTests.a */,
+				BF0AD32DC6D627BAEE9961DA /* libPods-BlogMapAppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D987FF46DA9D72DF80FA8E32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAD7F1221E94137EF526A65C /* Pods-BlogMapApp.debug.xcconfig */,
+				ED8501A22513EB1E24F77146 /* Pods-BlogMapApp.release.xcconfig */,
+				1B4F2B3DB57829DE9E5C8EEE /* Pods-BlogMapAppTests.debug.xcconfig */,
+				E4C7CBC1E91D667C3579115A /* Pods-BlogMapAppTests.release.xcconfig */,
+				DDC323B034C4AEDABFED4A7F /* Pods-BlogMapAppUITests.debug.xcconfig */,
+				080AEB9154FDEB15F6F4C170 /* Pods-BlogMapAppUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03F92F1B238E0FB300C2575A /* Build configuration list for PBXNativeTarget "BlogMapApp" */;
 			buildPhases = (
+				16A902729CC386F6B80EB452 /* [CP] Check Pods Manifest.lock */,
 				03F92EE8238E0FB100C2575A /* Sources */,
 				03F92EE9238E0FB100C2575A /* Frameworks */,
 				03F92EEA238E0FB100C2575A /* Resources */,
+				77FB3F2E655E9DA64C45AD5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,6 +251,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03F92F1E238E0FB300C2575A /* Build configuration list for PBXNativeTarget "BlogMapAppTests" */;
 			buildPhases = (
+				0609504CBCF6FDEB7918E088 /* [CP] Check Pods Manifest.lock */,
 				03F92F03238E0FB300C2575A /* Sources */,
 				03F92F04238E0FB300C2575A /* Frameworks */,
 				03F92F05238E0FB300C2575A /* Resources */,
@@ -179,6 +270,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03F92F21238E0FB300C2575A /* Build configuration list for PBXNativeTarget "BlogMapAppUITests" */;
 			buildPhases = (
+				E54D391E8DF1AD1F8D4FF88C /* [CP] Check Pods Manifest.lock */,
 				03F92F0E238E0FB300C2575A /* Sources */,
 				03F92F0F238E0FB300C2575A /* Frameworks */,
 				03F92F10238E0FB300C2575A /* Resources */,
@@ -262,12 +354,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0609504CBCF6FDEB7918E088 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlogMapAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16A902729CC386F6B80EB452 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlogMapApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77FB3F2E655E9DA64C45AD5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlogMapApp/Pods-BlogMapApp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlogMapApp/Pods-BlogMapApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E54D391E8DF1AD1F8D4FF88C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlogMapAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		03F92EE8238E0FB100C2575A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03F92F39238F579300C2575A /* Article.m in Sources */,
 				03F92EF7238E0FB100C2575A /* ViewController.m in Sources */,
+				03F92F35238EB75C00C2575A /* BlogViewController.m in Sources */,
+				03FE03B02390AC3400D438D8 /* MapViewController.m in Sources */,
+				03F92F26238E1CF500C2575A /* BlogTableViewCell.m in Sources */,
 				03F92EF1238E0FB100C2575A /* AppDelegate.m in Sources */,
 				03F92F02238E0FB300C2575A /* main.m in Sources */,
 				03F92EF4238E0FB100C2575A /* SceneDelegate.m in Sources */,
@@ -430,6 +617,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -437,6 +625,7 @@
 		};
 		03F92F1C238E0FB300C2575A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAD7F1221E94137EF526A65C /* Pods-BlogMapApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +642,7 @@
 		};
 		03F92F1D238E0FB300C2575A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED8501A22513EB1E24F77146 /* Pods-BlogMapApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -469,6 +659,7 @@
 		};
 		03F92F1F238E0FB300C2575A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B4F2B3DB57829DE9E5C8EEE /* Pods-BlogMapAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +679,7 @@
 		};
 		03F92F20238E0FB300C2575A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4C7CBC1E91D667C3579115A /* Pods-BlogMapAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +699,7 @@
 		};
 		03F92F22238E0FB300C2575A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC323B034C4AEDABFED4A7F /* Pods-BlogMapAppUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BlogMapAppUITests/Info.plist;
@@ -524,6 +717,7 @@
 		};
 		03F92F23238E0FB300C2575A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 080AEB9154FDEB15F6F4C170 /* Pods-BlogMapAppUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BlogMapAppUITests/Info.plist;
