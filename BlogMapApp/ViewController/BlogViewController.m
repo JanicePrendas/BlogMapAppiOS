@@ -7,6 +7,7 @@
 //
 
 #import "BlogViewController.h"
+#import "WebViewController.h"
 #import "Article.h"
 
 @interface BlogViewController ()
@@ -98,9 +99,16 @@ NSString *cellId = @"blogCell";
     return session;
 }
 
-
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    WebViewController *vc;
+    vc = [segue destinationViewController];
+    Article *currentArticle = [self->_articles objectAtIndex:[self->tableView indexPathForSelectedRow].row];
+    NSString *myUrl = currentArticle.link;
+    vc.stringUrl = [myUrl stringByReplacingOccurrencesOfString:@"http" withString:@"https"];
+}
 
 - (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    //The api is not properly configured to support pagination. So returning _articles.count is not a good idea
     return 20; //_articles.count;
 }
 
@@ -124,14 +132,7 @@ NSString *cellId = @"blogCell";
         });
         
     });
-    
-//        NSData * imageData = [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString:
-//                                                                    [NSString stringWithFormat:@"%@", maincell.image ]]];
-//
-    
-    
-       
-    
+
         UILabel *title=(UILabel *)[cell viewWithTag:1];
         title.text=maincell.title;
     

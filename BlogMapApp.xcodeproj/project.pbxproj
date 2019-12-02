@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		034335FB2394C0EB0050306B /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034335FA2394C0EB0050306B /* WebViewController.m */; };
 		03A5885C2390BF19005112D6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A5885B2390BF19005112D6 /* CoreLocation.framework */; };
 		03F92EF1238E0FB100C2575A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F92EF0238E0FB100C2575A /* AppDelegate.m */; };
 		03F92EF4238E0FB100C2575A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F92EF3238E0FB100C2575A /* SceneDelegate.m */; };
@@ -44,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		034335F92394C0EB0050306B /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		034335FA2394C0EB0050306B /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		03A5885B2390BF19005112D6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		03F92EEC238E0FB100C2575A /* BlogMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F92EEF238E0FB100C2575A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -188,6 +191,8 @@
 				03F92EF6238E0FB100C2575A /* ViewController.m */,
 				03FE03AE2390AC3400D438D8 /* MapViewController.h */,
 				03FE03AF2390AC3400D438D8 /* MapViewController.m */,
+				034335F92394C0EB0050306B /* WebViewController.h */,
+				034335FA2394C0EB0050306B /* WebViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -454,6 +459,7 @@
 				03F92EF7238E0FB100C2575A /* ViewController.m in Sources */,
 				03F92F35238EB75C00C2575A /* BlogViewController.m in Sources */,
 				03FE03B02390AC3400D438D8 /* MapViewController.m in Sources */,
+				034335FB2394C0EB0050306B /* WebViewController.m in Sources */,
 				03F92F26238E1CF500C2575A /* BlogTableViewCell.m in Sources */,
 				03F92EF1238E0FB100C2575A /* AppDelegate.m in Sources */,
 				03F92F02238E0FB300C2575A /* main.m in Sources */,

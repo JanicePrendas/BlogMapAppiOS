@@ -63,7 +63,7 @@
     CLLocation *location = mapView_.myLocation;
     address = [address stringByReplacingOccurrencesOfString:@" " withString:@"+"];
     
-    NSURL *googlePlacesURL = [NSURL URLWithString:[NSString stringWithFormat:@"https://maps.googleapis.com/maps/api/place/textsearch/json?query=%@&location=%f,%f&radius=1&key=AIzaSyBid_HvhuGknVyfrkxXNYDVT9IWb0ylJEg", //Insert your Google Maps Api Key here
+    NSURL *googlePlacesURL = [NSURL URLWithString:[NSString stringWithFormat:@"https://maps.googleapis.com/maps/api/place/textsearch/json?query=%@&location=%f,%f&radius=1&key=YOUR_KEY_HERE", //Insert your Google Maps Api Key here
         address, location.coordinate.latitude,location.coordinate.longitude]];
     
     
